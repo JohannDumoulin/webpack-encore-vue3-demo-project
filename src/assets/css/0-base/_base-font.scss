@@ -1,0 +1,60 @@
+/*
+!*
+ * [ base / font ]
+ *!
+
+// -----------------------------------------------------------------------------
+
+// 1. FiraSans [Heading]
+// ====================================
+@font-face {
+    font-family: 'FiraSans';
+    font-weight: 400;
+    font-display: swap;
+    src: url('/fonts/FiraSans-400.eot');
+    src: local('FiraSans Regular'), local('FiraSans-Regular'),
+         url('/fonts/FiraSans-400.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/FiraSans-400.woff2') format('woff2'),
+         url('/fonts/FiraSans-400.woff') format('woff'),
+         url('/fonts/FiraSans-400.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'FiraSans';
+    font-weight: 700;
+    font-display: swap;
+    src: url('/fonts/FiraSans-700.eot');
+    src: local('FiraSans Bold'), local('FiraSans-Bold'),
+         url('/fonts/FiraSans-700.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/FiraSans-700.woff2') format('woff2'),
+         url('/fonts/FiraSans-700.woff') format('woff'),
+         url('/fonts/FiraSans-700.ttf') format('truetype');
+}
+
+
+// 2. ShareTechMono [Core]
+// ====================================
+@font-face {
+    font-family: 'ShareTechMono';
+    font-weight: 400;
+    font-display: swap;
+    src: url('/fonts/ShareTechMono-400.eot');
+    src: local('ShareTechMono Regular'), local('ShareTechMono-Regular'),
+    url('/fonts/ShareTechMono-400.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/ShareTechMono-400.woff2') format('woff2'),
+    url('/fonts/ShareTechMono-400.woff') format('woff'),
+    url('/fonts/ShareTechMono-400.ttf') format('truetype');
+}
+
+
+// 3. Icomoon [Icon]
+// ====================================
+@font-face {
+    font-family: 'Icomoon';
+    font-weight: 400;
+    font-style: normal;
+    font-display: block;
+    src: url('/fonts/icomoon.ttf') format('truetype'),
+         url('/fonts/icomoon.woff') format('woff');
+}
+*/

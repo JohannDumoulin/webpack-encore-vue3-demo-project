@@ -1,0 +1,52 @@
+{
+  "name": "webpack-encore-vue3-demo-project",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "lint": "vue-cli-service lint",
+    "dev": "encore dev --watch",
+    "db": "json-server db.json",
+    "build": "encore production"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "core-js": "^3.6.5",
+    "json-server": "^0.16.1",
+    "normalize.css": "^8.0.1",
+    "vue": "^3.0.0-rc.9"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.10.4",
+    "@fullhuman/postcss-purgecss": "^2.3.0",
+    "@symfony/webpack-encore": "^0.31.0",
+    "@vue/compiler-sfc": "^3.0.0-0",
+    "autoprefixer": "^9.8.6",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^7.0.0-0",
+    "node-sass": "^4.14.1",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^8.0.2",
+    "vue-loader": "^16.0.0-beta.5"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
